@@ -23,25 +23,28 @@
         <input type="text" name="inputPhoneNumber" id="inputPhoneNumber">
         <label for="inputMessage">Message</label>
         <input type="text" name="inputMessage" id="inputMessage">
-        <button>Start chat</button>
+        <button id="start-chat-btn">Start chat</button>
     </div>
 
-    <div class="safe-container">
-        <ion-icon id="shield" name="shield-checkmark"></ion-icon>
-        <h4>Show others that you are safe</h4>
-        <span>If you approve your profile with bankID, you are perceived as a safer person to trade with</span>
-        <button>Get Started</button>
-    </div>
+    <div class="right-container">
+        <div class="safe-container">
+            <ion-icon id="shield" name="shield-checkmark"></ion-icon>
+            <div class="stuff-container">
+                <h4>Show others that you are safe</h4>
+                <span>If you approve your profile with bankID, you are perceived as a safer person to trade with</span>
+                <button id="get-started-btn">Get Started</button>
+            </div>
+        </div>
 
-    <div class="email-container">
-        <ion-icon id="mail" name="mail-open-outline"></ion-icon>
-        <h3>Subscribe to the newsletter</h3>
-        <div class="newsletter-div">
-            <input type="text" name="newsletterEmail" placeholder="Enter email address">
-            <button>OK</button>
+        <div class="email-container">
+            <ion-icon id="mail" name="mail-open-outline"></ion-icon>
+            <h3>Subscribe to the newsletter</h3>
+            <div class="newsletter-div">
+                <input type="text"  id="newsletterEmail" name="newsletterEmail" placeholder="Enter email address">
+                <button id="ok">OK</button>
+            </div>
         </div>
     </div>
-    
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
